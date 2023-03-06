@@ -1,0 +1,112 @@
+* {
+  color: #4b0082;
+}
+
+.weatherapp {
+  width: 80%;
+  margin: 50px auto 50px auto;
+  background: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(181, 255, 255) 100.5%
+  );
+  padding-top: 10px;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.searchbox {
+  border-radius: 10px;
+  border: #008b8b 2px solid;
+  padding: 8px 0;
+}
+
+.col {
+  text-align: center;
+}
+
+.search,
+.current {
+  background-color: #008b8b;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+.currentH1 {
+  font-weight: 700;
+  margin: 20px 10px 20px;
+  font-size: 50px;
+}
+
+.search {
+  margin-left: 10px;
+}
+
+.searchcity {
+  width: 80%;
+}
+
+.currenticon {
+  font-size: 30px;
+  display: flex;
+  margin: 20px 0 30px;
+}
+
+.currentweather {
+  font-size: 30px;
+}
+
+.currentsun.fa-solid {
+  font-size: 60px;
+  margin-right: 20px;
+}
+
+div > h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.futureweather {
+  margin-top: 20px;
+}
+
+.fa-solid {
+  color: #008b8b;
+  font-size: 25px;
+}
+
+.night {
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media (max-width: 790px) {
+  .searchcity {
+    width: 70%;
+  }
+}
+
+@media (max-width: 560px) {
+  .searchcity {
+    width: 60%;
+  }
+}
+
+@media (max-width: 390px) {
+  .col-6 {
+    width: auto !important;
+  }
+}
+
+#fahrenheit,
+#celsius {
+  text-decoration: none;
+  color: #4b0082;
+}
+
+#selected-temp {
+  color: #008b8b;
+}
