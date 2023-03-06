@@ -110,3 +110,9 @@ div > h3 {
 #selected-temp {
   color: #008b8b;
 }
+
+.credit {
+  width: 80%;
+  margin-left: 80px;
+  padding-left: 20px;
+}
